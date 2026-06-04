@@ -32,11 +32,11 @@ Partial Class Form1
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
-        Me.Button10 = New System.Windows.Forms.Button()
-        Me.Button11 = New System.Windows.Forms.Button()
-        Me.Button12 = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Button13 = New System.Windows.Forms.Button()
+        Me.Button0 = New System.Windows.Forms.Button()
+        Me.btn_Cancel = New System.Windows.Forms.Button()
+        Me.btn_Clear = New System.Windows.Forms.Button()
+        Me.txt_display = New System.Windows.Forms.TextBox()
+        Me.btn_Enter = New System.Windows.Forms.Button()
         Me.Button14 = New System.Windows.Forms.Button()
         Me.Button15 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
@@ -122,48 +122,50 @@ Partial Class Form1
         Me.Button9.TabIndex = 8
         Me.Button9.UseVisualStyleBackColor = True
         '
-        'Button10
+        'Button0
         '
-        Me.Button10.Image = CType(resources.GetObject("Button10.Image"), System.Drawing.Image)
-        Me.Button10.Location = New System.Drawing.Point(289, 524)
-        Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(149, 116)
-        Me.Button10.TabIndex = 9
-        Me.Button10.UseVisualStyleBackColor = True
+        Me.Button0.Image = CType(resources.GetObject("Button0.Image"), System.Drawing.Image)
+        Me.Button0.Location = New System.Drawing.Point(289, 524)
+        Me.Button0.Name = "Button0"
+        Me.Button0.Size = New System.Drawing.Size(149, 116)
+        Me.Button0.TabIndex = 9
+        Me.Button0.UseVisualStyleBackColor = True
         '
-        'Button11
+        'btn_Cancel
         '
-        Me.Button11.Image = CType(resources.GetObject("Button11.Image"), System.Drawing.Image)
-        Me.Button11.Location = New System.Drawing.Point(596, 171)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(177, 110)
-        Me.Button11.TabIndex = 10
-        Me.Button11.UseVisualStyleBackColor = True
+        Me.btn_Cancel.Image = CType(resources.GetObject("btn_Cancel.Image"), System.Drawing.Image)
+        Me.btn_Cancel.Location = New System.Drawing.Point(596, 171)
+        Me.btn_Cancel.Name = "btn_Cancel"
+        Me.btn_Cancel.Size = New System.Drawing.Size(177, 110)
+        Me.btn_Cancel.TabIndex = 10
+        Me.btn_Cancel.UseVisualStyleBackColor = True
         '
-        'Button12
+        'btn_Clear
         '
-        Me.Button12.Image = CType(resources.GetObject("Button12.Image"), System.Drawing.Image)
-        Me.Button12.Location = New System.Drawing.Point(597, 286)
-        Me.Button12.Name = "Button12"
-        Me.Button12.Size = New System.Drawing.Size(177, 109)
-        Me.Button12.TabIndex = 11
-        Me.Button12.UseVisualStyleBackColor = True
+        Me.btn_Clear.Image = CType(resources.GetObject("btn_Clear.Image"), System.Drawing.Image)
+        Me.btn_Clear.Location = New System.Drawing.Point(597, 286)
+        Me.btn_Clear.Name = "btn_Clear"
+        Me.btn_Clear.Size = New System.Drawing.Size(177, 109)
+        Me.btn_Clear.TabIndex = 11
+        Me.btn_Clear.UseVisualStyleBackColor = True
         '
-        'TextBox1
+        'txt_display
         '
-        Me.TextBox1.Location = New System.Drawing.Point(135, 106)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(456, 20)
-        Me.TextBox1.TabIndex = 12
+        Me.txt_display.Font = New System.Drawing.Font("Microsoft Sans Serif", 30.25!)
+        Me.txt_display.Location = New System.Drawing.Point(198, 52)
+        Me.txt_display.Multiline = True
+        Me.txt_display.Name = "txt_display"
+        Me.txt_display.Size = New System.Drawing.Size(360, 88)
+        Me.txt_display.TabIndex = 12
         '
-        'Button13
+        'btn_Enter
         '
-        Me.Button13.Image = CType(resources.GetObject("Button13.Image"), System.Drawing.Image)
-        Me.Button13.Location = New System.Drawing.Point(599, 404)
-        Me.Button13.Name = "Button13"
-        Me.Button13.Size = New System.Drawing.Size(175, 114)
-        Me.Button13.TabIndex = 13
-        Me.Button13.UseVisualStyleBackColor = True
+        Me.btn_Enter.Image = CType(resources.GetObject("btn_Enter.Image"), System.Drawing.Image)
+        Me.btn_Enter.Location = New System.Drawing.Point(599, 404)
+        Me.btn_Enter.Name = "btn_Enter"
+        Me.btn_Enter.Size = New System.Drawing.Size(175, 114)
+        Me.btn_Enter.TabIndex = 13
+        Me.btn_Enter.UseVisualStyleBackColor = True
         '
         'Button14
         '
@@ -190,11 +192,11 @@ Partial Class Form1
         Me.ClientSize = New System.Drawing.Size(832, 677)
         Me.Controls.Add(Me.Button15)
         Me.Controls.Add(Me.Button14)
-        Me.Controls.Add(Me.Button13)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Button12)
-        Me.Controls.Add(Me.Button11)
-        Me.Controls.Add(Me.Button10)
+        Me.Controls.Add(Me.btn_Enter)
+        Me.Controls.Add(Me.txt_display)
+        Me.Controls.Add(Me.btn_Clear)
+        Me.Controls.Add(Me.btn_Cancel)
+        Me.Controls.Add(Me.Button0)
         Me.Controls.Add(Me.Button9)
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Button7)
@@ -220,11 +222,11 @@ Partial Class Form1
     Friend WithEvents Button7 As Button
     Friend WithEvents Button8 As Button
     Friend WithEvents Button9 As Button
-    Friend WithEvents Button10 As Button
-    Friend WithEvents Button11 As Button
-    Friend WithEvents Button12 As Button
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Button13 As Button
+    Friend WithEvents Button0 As Button
+    Friend WithEvents btn_Cancel As Button
+    Friend WithEvents btn_Clear As Button
+    Friend WithEvents txt_display As TextBox
+    Friend WithEvents btn_Enter As Button
     Friend WithEvents Button14 As Button
     Friend WithEvents Button15 As Button
 End Class
