@@ -11,7 +11,7 @@ Public Class Form1
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        projeto_ATM.MóduloGeral.Main()
+        MsgBox(Saldo(1))
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
@@ -65,7 +65,7 @@ Public Class ConexaoBanco
             conexao.Open()
             Return conexao
         Catch ex As Exception
-            Console.WriteLine(ex.ToString())
+            MsgBox(ex.ToString())
             Return Nothing
         End Try
     End Function
