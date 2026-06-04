@@ -16,6 +16,7 @@ Module MóduloGeral
         Do While leitor.Read
             Return leitor("saldo").ToString()
         Loop
+        conn.Close()
     End Function
 
     Function Sacar(id, valor)
@@ -25,8 +26,13 @@ Module MóduloGeral
         Dim comando = New MySqlCommand(QuerySql, conn)
         comando.Parameters.AddWithValue("@id", id)
         comando.Parameters.AddWithValue("@valor", valor)
-        comando.ExecuteNonQuery()
+        Try
+            comando.ExecuteNonQuery()
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
         Registro(id, id, valor, "Saque")
+        conn.Close()
     End Function
 
     Function Depositar(id, valor)
@@ -38,6 +44,7 @@ Module MóduloGeral
         comando.Parameters.AddWithValue("@valor", valor)
         comando.ExecuteNonQuery()
         Registro(id, id, valor, "depósito")
+        conn.Close()
     End Function
 
     Function Transferir(id_origem, id_destino, valor, pix)
@@ -48,7 +55,6 @@ Module MóduloGeral
         Else
             Registro(id_destino, id_origem, valor, "pix")
         End If
-
     End Function
 
     Function VerificarSenha(cartao, pin)
@@ -69,6 +75,7 @@ Module MóduloGeral
             tentativas += 1
             Return False
         End If
+        conn.Close()
     End Function
 
     Function VerificarCartao(cartao)
@@ -83,6 +90,7 @@ Module MóduloGeral
         Else
             Return False
         End If
+        conn.Close()
     End Function
 
     Function Conta(cartao)
@@ -95,6 +103,7 @@ Module MóduloGeral
         Do While leitor.Read
             Return leitor("id_conta").ToString()
         Loop
+        conn.Close()
     End Function
 
     Function IdentificarContaTransferencia(agencia, cc)
@@ -110,7 +119,7 @@ Module MóduloGeral
         Else
             Return False
         End If
-
+        conn.Close()
     End Function
 
     Function IdentificarContaPix(cpf)
@@ -125,7 +134,7 @@ Module MóduloGeral
         Else
             Return False
         End If
-
+        conn.Close()
     End Function
 
     Function Registro(id_conta_to, id_conta_from, valor, operacao)
@@ -138,13 +147,15 @@ Module MóduloGeral
         comando.Parameters.AddWithValue("@id_conta_from", id_conta_from)
         comando.Parameters.AddWithValue("@operacao", operacao)
         comando.ExecuteNonQuery()
-        Historico()
+        Historico(id_conta_from, id_conta_to, valor, operacao)
+        conn.Close()
     End Function
 
-    Function Historico()
+    Function Historico(id_conta_from, id_conta_to, valor, operacao)
         Dim applicationPath = Path.GetDirectoryName(Application.ExecutablePath)
         applicationPath = applicationPath + "\transacoes.txt"
-        My.Computer.FileSystem.WriteAllText(applicationPath, "This is new text to be added.", True)
+        Dim info = DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss") + "|Conta Origem:" + id_conta_from.ToString() + "|Valor R$" + valor.ToString() + "|Operação:" + operacao + "|Conta Destino:" + id_conta_from.ToString() + Environment.NewLine
+        My.Computer.FileSystem.WriteAllText(applicationPath, info, True)
     End Function
 
 End Module
