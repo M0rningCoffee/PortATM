@@ -2,6 +2,7 @@
 Imports MySql.Data.MySqlClient
 Imports projeto_ATM.MóduloGeral
 Public Class Form1
+    Public idAtual As String
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim ConexaoBanco = New ConexaoBanco()
@@ -62,10 +63,39 @@ Public Class Form1
     End Sub
 
     Private Sub btn_Enter_Click(sender As Object, e As EventArgs) Handles btn_Enter.Click
-        'If txt_display.Text <= saldo(Id) Then
-        '    MsgBox("Saque efetuado com sucesso!")
+        Dim valorSaque As Decimal = Convert.ToDecimal(txt_display.Text)
 
-        'End If
+        idAtual = Conta(123456)
+
+        If valorSaque <= Saldo(idAtual) Then
+            MsgBox("Saque efetuado!")
+            Sacar(idAtual, valorSaque)
+        Else
+            MsgBox("Saque não efetuado. Valor acima do saldo!")
+        End If
+    End Sub
+
+    Private Sub txt_display_TextChanged(sender As Object, e As EventArgs) Handles txt_display.TextChanged
+        RemoveHandler txt_display.TextChanged, AddressOf txt_display_TextChanged
+
+        Try
+            Dim apenasNumeros As String = System.Text.RegularExpressions.Regex.Replace(txt_display.Text, "[^\d]", "")
+
+            If String.IsNullOrEmpty(apenasNumeros) Then
+                txt_display.Text = "0,00"
+            Else
+                Dim valorDouble As Double = Convert.ToDouble(apenasNumeros) / 100
+
+                txt_display.Text = String.Format("{0:N2}", valorDouble)
+            End If
+
+            txt_display.SelectionStart = txt_display.Text.Length
+
+        Catch ex As Exception
+            txt_display.Text = "0,00"
+        Finally
+            AddHandler txt_display.TextChanged, AddressOf txt_display_TextChanged
+        End Try
     End Sub
 End Class
 

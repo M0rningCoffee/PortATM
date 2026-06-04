@@ -151,7 +151,7 @@ Partial Class Form1
         '
         'txt_display
         '
-        Me.txt_display.Font = New System.Drawing.Font("Microsoft Sans Serif", 30.25!)
+        Me.txt_display.Font = New System.Drawing.Font("Microsoft Sans Serif", 50.25!)
         Me.txt_display.Location = New System.Drawing.Point(198, 52)
         Me.txt_display.Multiline = True
         Me.txt_display.Name = "txt_display"
