@@ -13,7 +13,7 @@ create table contas
 	cc varchar(7) not null,
 	pix bool default true,
 	primary key (id_conta)
-)
+);
 
 
 create table registros
@@ -27,7 +27,7 @@ create table registros
 	primary key (id_registros),
 	foreign key (id_conta_to) references contas(id_conta),
 	foreign key (id_conta_from) references contas(id_conta)
-)
+);
 
 
 
@@ -41,6 +41,7 @@ insert into registros(id_conta_to, id_conta_from, operacao, valor)
 values (1, 1, "dinheiro", 10);
 
 select * from contas;
+select saldo from contas where id_conta = 1;
 select * from registros;
 
 

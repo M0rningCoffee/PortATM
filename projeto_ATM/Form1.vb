@@ -1,6 +1,6 @@
 ﻿
 Imports MySql.Data.MySqlClient
-
+Imports projeto_ATM.MóduloGeral
 Public Class Form1
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -11,7 +11,7 @@ Public Class Form1
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-
+        projeto_ATM.MóduloGeral.Main()
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
@@ -54,12 +54,14 @@ End Class
 
 Public Class ConexaoBanco
     Dim conexao As MySqlConnection
+    Dim command As MySqlCommand
+    Dim reader As MySqlDataReader
 
     Function ConectarBanco() As MySqlConnection
         conexao = New MySqlConnection
         conexao.ConnectionString = "server=localhost;user id=root;password=;database=atm"
         Try
-            MsgBox("Connecting to MySQL...")
+            MsgBox("Conectando ao MySQL...")
             conexao.Open()
             Return conexao
         Catch ex As Exception
