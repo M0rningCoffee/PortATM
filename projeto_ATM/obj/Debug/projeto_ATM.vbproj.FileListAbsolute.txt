@@ -4,7 +4,6 @@ C:\Users\Coffee-Dev\Desktop\PortATM\projeto_ATM\bin\Debug\projeto_ATM.pdb
 C:\Users\Coffee-Dev\Desktop\PortATM\projeto_ATM\bin\Debug\projeto_ATM.xml
 C:\Users\Coffee-Dev\Desktop\PortATM\projeto_ATM\obj\Debug\projeto_ATM.vbproj.AssemblyReference.cache
 C:\Users\Coffee-Dev\Desktop\PortATM\projeto_ATM\obj\Debug\projeto_ATM.Form1.resources
-C:\Users\Coffee-Dev\Desktop\PortATM\projeto_ATM\obj\Debug\projeto_ATM.Form3.resources
 C:\Users\Coffee-Dev\Desktop\PortATM\projeto_ATM\obj\Debug\projeto_ATM.Resources.resources
 C:\Users\Coffee-Dev\Desktop\PortATM\projeto_ATM\obj\Debug\projeto_ATM.vbproj.GenerateResource.cache
 C:\Users\Coffee-Dev\Desktop\PortATM\projeto_ATM\obj\Debug\projeto_ATM.vbproj.CoreCompileInputs.cache
@@ -33,3 +32,89 @@ C:\Users\eto12\Documents\PortATM\projeto_ATM\obj\Debug\projeto_.B5634A2D.Up2Date
 C:\Users\eto12\Documents\PortATM\projeto_ATM\obj\Debug\projeto_ATM.exe
 C:\Users\eto12\Documents\PortATM\projeto_ATM\obj\Debug\projeto_ATM.xml
 C:\Users\eto12\Documents\PortATM\projeto_ATM\obj\Debug\projeto_ATM.pdb
+C:\Users\Pichau\Downloads\PortATM-master\projeto_ATM\bin\Debug\projeto_ATM.exe.config
+C:\Users\Pichau\Downloads\PortATM-master\projeto_ATM\bin\Debug\projeto_ATM.exe
+C:\Users\Pichau\Downloads\PortATM-master\projeto_ATM\bin\Debug\projeto_ATM.pdb
+C:\Users\Pichau\Downloads\PortATM-master\projeto_ATM\bin\Debug\projeto_ATM.xml
+C:\Users\Pichau\Downloads\PortATM-master\projeto_ATM\bin\Debug\MySql.Data.dll
+C:\Users\Pichau\Downloads\PortATM-master\projeto_ATM\bin\Debug\System.Memory.dll
+C:\Users\Pichau\Downloads\PortATM-master\projeto_ATM\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Pichau\Downloads\PortATM-master\projeto_ATM\obj\Debug\projeto_ATM.vbproj.AssemblyReference.cache
+C:\Users\Pichau\Downloads\PortATM-master\projeto_ATM\obj\Debug\projeto_ATM.Form1.resources
+C:\Users\Pichau\Downloads\PortATM-master\projeto_ATM\obj\Debug\projeto_ATM.frm_registro.resources
+C:\Users\Pichau\Downloads\PortATM-master\projeto_ATM\obj\Debug\projeto_ATM.Resources.resources
+C:\Users\Pichau\Downloads\PortATM-master\projeto_ATM\obj\Debug\projeto_ATM.vbproj.GenerateResource.cache
+C:\Users\Pichau\Downloads\PortATM-master\projeto_ATM\obj\Debug\projeto_ATM.vbproj.CoreCompileInputs.cache
+C:\Users\Pichau\Downloads\PortATM-master\projeto_ATM\obj\Debug\projeto_.B5634A2D.Up2Date
+C:\Users\Pichau\Downloads\PortATM-master\projeto_ATM\obj\Debug\projeto_ATM.exe
+C:\Users\Pichau\Downloads\PortATM-master\projeto_ATM\obj\Debug\projeto_ATM.xml
+C:\Users\Pichau\Downloads\PortATM-master\projeto_ATM\obj\Debug\projeto_ATM.pdb
+C:\Users\Pichau\Downloads\PortATM\projeto_ATM\bin\Debug\projeto_ATM.exe.config
+C:\Users\Pichau\Downloads\PortATM\projeto_ATM\bin\Debug\projeto_ATM.exe
+C:\Users\Pichau\Downloads\PortATM\projeto_ATM\bin\Debug\projeto_ATM.pdb
+C:\Users\Pichau\Downloads\PortATM\projeto_ATM\bin\Debug\projeto_ATM.xml
+C:\Users\Pichau\Downloads\PortATM\projeto_ATM\bin\Debug\MySql.Data.dll
+C:\Users\Pichau\Downloads\PortATM\projeto_ATM\bin\Debug\System.Memory.dll
+C:\Users\Pichau\Downloads\PortATM\projeto_ATM\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Pichau\Downloads\PortATM\projeto_ATM\obj\Debug\projeto_ATM.vbproj.AssemblyReference.cache
+C:\Users\Pichau\Downloads\PortATM\projeto_ATM\obj\Debug\projeto_ATM.Form1.resources
+C:\Users\Pichau\Downloads\PortATM\projeto_ATM\obj\Debug\projeto_ATM.frm_registro.resources
+C:\Users\Pichau\Downloads\PortATM\projeto_ATM\obj\Debug\projeto_ATM.Resources.resources
+C:\Users\Pichau\Downloads\PortATM\projeto_ATM\obj\Debug\projeto_ATM.vbproj.GenerateResource.cache
+C:\Users\Pichau\Downloads\PortATM\projeto_ATM\obj\Debug\projeto_ATM.vbproj.CoreCompileInputs.cache
+C:\Users\Pichau\Downloads\PortATM\projeto_ATM\obj\Debug\projeto_.B5634A2D.Up2Date
+C:\Users\Pichau\Downloads\PortATM\projeto_ATM\obj\Debug\projeto_ATM.exe
+C:\Users\Pichau\Downloads\PortATM\projeto_ATM\obj\Debug\projeto_ATM.xml
+C:\Users\Pichau\Downloads\PortATM\projeto_ATM\obj\Debug\projeto_ATM.pdb
+C:\Users\Pichau\Downloads\PortATM\projeto_ATM\obj\Debug\projeto_ATM.Cartao_acesso.resources
+C:\Users\Pichau\Downloads\PortATM\projeto_ATM\obj\Debug\projeto_ATM.inicio.resources
+C:\Users\Pichau\Downloads\PortATM\projeto_ATM\obj\Debug\projeto_ATM.menu_senha.resources
+C:\Users\Pichau\Downloads\PortATM\projeto_ATM\obj\Debug\projeto_ATM.FormAdmin.resources
+C:\Users\Pichau\Downloads\PortATM\projeto_ATM\obj\Debug\projeto_ATM.FormLoginAdmin.resources
+C:\Users\Pichau\Downloads\PortATM\projeto_ATM\obj\Debug\projeto_ATM.FormExtrato.resources
+C:\Users\Pichau\Downloads\PortATM\projeto_ATM\obj\Debug\projeto_ATM.menu_principal.resources
+C:\Users\Pichau\Downloads\PortATM\projeto_ATM\obj\Debug\projeto_ATM.FormDeposito.resources
+C:\Users\Pichau\Downloads\PortATM\projeto_ATM\obj\Debug\projeto_ATM.Formsenhadeposito.resources
+C:\Users\Pichau\Downloads\PortATM\projeto_ATM\obj\Debug\projeto_ATM.FormSaque.resources
+C:\Users\Pichau\Downloads\PortATM\projeto_ATM\obj\Debug\projeto_ATM.FormSenhaSaque.resources
+C:\Users\Coffee-Dev\Desktop\PortATM - Copia\projeto_ATM\bin\Debug\projeto_ATM.exe.config
+C:\Users\Coffee-Dev\Desktop\PortATM - Copia\projeto_ATM\bin\Debug\projeto_ATM.exe
+C:\Users\Coffee-Dev\Desktop\PortATM - Copia\projeto_ATM\bin\Debug\projeto_ATM.pdb
+C:\Users\Coffee-Dev\Desktop\PortATM - Copia\projeto_ATM\bin\Debug\projeto_ATM.xml
+C:\Users\Coffee-Dev\Desktop\PortATM - Copia\projeto_ATM\bin\Debug\MySql.Data.dll
+C:\Users\Coffee-Dev\Desktop\PortATM - Copia\projeto_ATM\bin\Debug\System.Memory.dll
+C:\Users\Coffee-Dev\Desktop\PortATM - Copia\projeto_ATM\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Coffee-Dev\Desktop\PortATM - Copia\projeto_ATM\obj\Debug\projeto_ATM.vbproj.AssemblyReference.cache
+C:\Users\Coffee-Dev\Desktop\PortATM - Copia\projeto_ATM\obj\Debug\projeto_ATM.exe.config
+C:\Users\Coffee-Dev\Desktop\PortATM - Copia\projeto_ATM\obj\Debug\projeto_ATM.Cartao_acesso.resources
+C:\Users\Coffee-Dev\Desktop\PortATM - Copia\projeto_ATM\obj\Debug\projeto_ATM.Form1.resources
+C:\Users\Coffee-Dev\Desktop\PortATM - Copia\projeto_ATM\obj\Debug\projeto_ATM.inicio.resources
+C:\Users\Coffee-Dev\Desktop\PortATM - Copia\projeto_ATM\obj\Debug\projeto_ATM.frm_registro.resources
+C:\Users\Coffee-Dev\Desktop\PortATM - Copia\projeto_ATM\obj\Debug\projeto_ATM.FormAdmin.resources
+C:\Users\Coffee-Dev\Desktop\PortATM - Copia\projeto_ATM\obj\Debug\projeto_ATM.FormDeposito.resources
+C:\Users\Coffee-Dev\Desktop\PortATM - Copia\projeto_ATM\obj\Debug\projeto_ATM.FormExtrato.resources
+C:\Users\Coffee-Dev\Desktop\PortATM - Copia\projeto_ATM\obj\Debug\projeto_ATM.FormLoginAdmin.resources
+C:\Users\Coffee-Dev\Desktop\PortATM - Copia\projeto_ATM\obj\Debug\projeto_ATM.FormSaque.resources
+C:\Users\Coffee-Dev\Desktop\PortATM - Copia\projeto_ATM\obj\Debug\projeto_ATM.Formsenhadeposito.resources
+C:\Users\Coffee-Dev\Desktop\PortATM - Copia\projeto_ATM\obj\Debug\projeto_ATM.FormSenhaSaque.resources
+C:\Users\Coffee-Dev\Desktop\PortATM - Copia\projeto_ATM\obj\Debug\projeto_ATM.menu_principal.resources
+C:\Users\Coffee-Dev\Desktop\PortATM - Copia\projeto_ATM\obj\Debug\projeto_ATM.menu_senha.resources
+C:\Users\Coffee-Dev\Desktop\PortATM - Copia\projeto_ATM\obj\Debug\projeto_ATM.Resources.resources
+C:\Users\Coffee-Dev\Desktop\PortATM - Copia\projeto_ATM\obj\Debug\projeto_ATM.vbproj.GenerateResource.cache
+C:\Users\Coffee-Dev\Desktop\PortATM - Copia\projeto_ATM\obj\Debug\projeto_ATM.vbproj.CoreCompileInputs.cache
+C:\Users\Coffee-Dev\Desktop\PortATM - Copia\projeto_ATM\obj\Debug\projeto_.B5634A2D.Up2Date
+C:\Users\Coffee-Dev\Desktop\PortATM - Copia\projeto_ATM\obj\Debug\projeto_ATM.exe
+C:\Users\Coffee-Dev\Desktop\PortATM - Copia\projeto_ATM\obj\Debug\projeto_ATM.xml
+C:\Users\Coffee-Dev\Desktop\PortATM - Copia\projeto_ATM\obj\Debug\projeto_ATM.pdb
+C:\Users\Coffee-Dev\Desktop\PortATM\projeto_ATM\obj\Debug\projeto_ATM.Cartao_acesso.resources
+C:\Users\Coffee-Dev\Desktop\PortATM\projeto_ATM\obj\Debug\projeto_ATM.inicio.resources
+C:\Users\Coffee-Dev\Desktop\PortATM\projeto_ATM\obj\Debug\projeto_ATM.frm_registro.resources
+C:\Users\Coffee-Dev\Desktop\PortATM\projeto_ATM\obj\Debug\projeto_ATM.FormAdmin.resources
+C:\Users\Coffee-Dev\Desktop\PortATM\projeto_ATM\obj\Debug\projeto_ATM.FormDeposito.resources
+C:\Users\Coffee-Dev\Desktop\PortATM\projeto_ATM\obj\Debug\projeto_ATM.FormExtrato.resources
+C:\Users\Coffee-Dev\Desktop\PortATM\projeto_ATM\obj\Debug\projeto_ATM.FormLoginAdmin.resources
+C:\Users\Coffee-Dev\Desktop\PortATM\projeto_ATM\obj\Debug\projeto_ATM.FormSaque.resources
+C:\Users\Coffee-Dev\Desktop\PortATM\projeto_ATM\obj\Debug\projeto_ATM.Formsenhadeposito.resources
+C:\Users\Coffee-Dev\Desktop\PortATM\projeto_ATM\obj\Debug\projeto_ATM.FormSenhaSaque.resources
+C:\Users\Coffee-Dev\Desktop\PortATM\projeto_ATM\obj\Debug\projeto_ATM.menu_principal.resources
+C:\Users\Coffee-Dev\Desktop\PortATM\projeto_ATM\obj\Debug\projeto_ATM.menu_senha.resources

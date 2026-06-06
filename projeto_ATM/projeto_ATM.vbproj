@@ -78,6 +78,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cartao acesso.Designer.vb">
+      <DependentUpon>Cartao acesso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cartao acesso.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,60 @@
       <DependentUpon>Form3.vb</DependentUpon>
     </Compile>
     <Compile Include="Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdmin.Designer.vb">
+      <DependentUpon>FormAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDeposito.Designer.vb">
+      <DependentUpon>FormDeposito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormDeposito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExtrato.Designer.vb">
+      <DependentUpon>FormExtrato.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormExtrato.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLoginAdmin.Designer.vb">
+      <DependentUpon>FormLoginAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormLoginAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSaque.Designer.vb">
+      <DependentUpon>FormSaque.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormSaque.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formsenhadeposito.Designer.vb">
+      <DependentUpon>Formsenhadeposito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formsenhadeposito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSenhaSaque.Designer.vb">
+      <DependentUpon>FormSenhaSaque.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormSenhaSaque.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu_principal.Designer.vb">
+      <DependentUpon>menu_principal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="menu_principal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu_senha.Designer.vb">
+      <DependentUpon>menu_senha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="menu_senha.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -116,11 +176,44 @@
     <Compile Include="MóduloGeral.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Cartao acesso.resx">
+      <DependentUpon>Cartao acesso.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdmin.resx">
+      <DependentUpon>FormAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDeposito.resx">
+      <DependentUpon>FormDeposito.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExtrato.resx">
+      <DependentUpon>FormExtrato.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLoginAdmin.resx">
+      <DependentUpon>FormLoginAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSaque.resx">
+      <DependentUpon>FormSaque.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formsenhadeposito.resx">
+      <DependentUpon>Formsenhadeposito.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSenhaSaque.resx">
+      <DependentUpon>FormSenhaSaque.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu_principal.resx">
+      <DependentUpon>menu_principal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu_senha.resx">
+      <DependentUpon>menu_senha.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

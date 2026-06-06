@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Coffee-Dev\\Desktop\\PortATM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5C048C1-6CFD-4D22-8602-FA571DDACA5E}|projeto_ATM\\projeto_ATM.vbproj|C:\\Users\\Coffee-Dev\\Desktop\\PortATM\\projeto_atm\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{C5C048C1-6CFD-4D22-8602-FA571DDACA5E}|projeto_ATM\\projeto_ATM.vbproj|c:\\users\\coffee-dev\\desktop\\portatm\\projeto_atm\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{C5C048C1-6CFD-4D22-8602-FA571DDACA5E}|projeto_ATM\\projeto_ATM.vbproj|solutionrelative:projeto_atm\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|solutionrelative:.editorconfig||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5C048C1-6CFD-4D22-8602-FA571DDACA5E}|projeto_ATM\\projeto_ATM.vbproj|c:\\users\\coffee-dev\\desktop\\portatm\\projeto_atm\\m\u00F3dulogeral.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{C5C048C1-6CFD-4D22-8602-FA571DDACA5E}|projeto_ATM\\projeto_ATM.vbproj|C:\\Users\\Coffee-Dev\\Desktop\\PortATM\\projeto_atm\\m\u00F3dulogeral.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{C5C048C1-6CFD-4D22-8602-FA571DDACA5E}|projeto_ATM\\projeto_ATM.vbproj|solutionrelative:projeto_atm\\m\u00F3dulogeral.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
@@ -46,8 +46,7 @@
               "RelativeToolTip": "projeto_ATM\\M\u00F3duloGeral.vb",
               "ViewState": "AgIAAGIAAAAAAAAAAAAAwGsAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-06-04T17:06:18.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-04T17:06:18.441Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": ".editorconfig",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-06-04T16:21:07.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-04T16:21:07.391Z"
             },
             {
               "$type": "Document",
@@ -71,8 +69,7 @@
               "ToolTip": "C:\\Users\\Coffee-Dev\\Desktop\\PortATM\\projeto_ATM\\Form3.vb [Design]",
               "RelativeToolTip": "projeto_ATM\\Form3.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-06-04T16:15:48.723Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2026-06-04T16:15:48.723Z"
             },
             {
               "$type": "Document",
