@@ -33,7 +33,7 @@ Partial Class frm_registro
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btn_salvar = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.btn_sair = New System.Windows.Forms.Button()
         Me.txt_cpf = New System.Windows.Forms.TextBox()
         Me.label = New System.Windows.Forms.Label()
         Me.txt_cartao = New System.Windows.Forms.TextBox()
@@ -142,14 +142,14 @@ Partial Class frm_registro
         Me.btn_salvar.Text = "SALVAR"
         Me.btn_salvar.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btn_sair
         '
-        Me.Button2.Location = New System.Drawing.Point(375, 415)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(146, 67)
-        Me.Button2.TabIndex = 31
-        Me.Button2.Text = "SAIR"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btn_sair.Location = New System.Drawing.Point(375, 415)
+        Me.btn_sair.Name = "btn_sair"
+        Me.btn_sair.Size = New System.Drawing.Size(146, 67)
+        Me.btn_sair.TabIndex = 31
+        Me.btn_sair.Text = "SAIR"
+        Me.btn_sair.UseVisualStyleBackColor = True
         '
         'txt_cpf
         '
@@ -238,7 +238,7 @@ Partial Class frm_registro
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.txt_cpf)
         Me.Controls.Add(Me.label)
-        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.btn_sair)
         Me.Controls.Add(Me.btn_salvar)
         Me.Controls.Add(Me.DateTimePicker1)
         Me.Controls.Add(Me.RadioButton2)
@@ -267,7 +267,7 @@ Partial Class frm_registro
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents btn_salvar As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents btn_sair As Button
     Friend WithEvents txt_cpf As TextBox
     Friend WithEvents label As Label
     Friend WithEvents txt_cartao As TextBox

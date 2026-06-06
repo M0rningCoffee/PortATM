@@ -4,7 +4,7 @@ Imports projeto_ATM.MóduloGeral
 Public Class Form1
     Public idAtual As String
 
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub Cartaoacesso_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Dim ConexaoBanco = New ConexaoBanco()
         Dim Conn = ConexaoBanco.ConectarBanco()
         'MsgBox("Conectado com Sucesso!")
@@ -96,6 +96,14 @@ Public Class Form1
         Finally
             AddHandler txt_display.TextChanged, AddressOf txt_display_TextChanged
         End Try
+    End Sub
+
+    Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
+
+    End Sub
+
+    Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
+
     End Sub
 End Class
 
