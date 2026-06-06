@@ -4,6 +4,9 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>projeto_ATM</RootNamespace>
     <TargetFramework>net10.0</TargetFramework>
+	  <ItemGroup>
+		  <PackageReference Include="MySql.Data" Version="9.4.0" />
+	  </ItemGroup>
   </PropertyGroup>
 
 </Project>
