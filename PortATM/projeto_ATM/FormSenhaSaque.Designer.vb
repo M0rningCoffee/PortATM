@@ -40,12 +40,13 @@ Partial Class FormSenhaSaque
         Me.Button3D = New System.Windows.Forms.Button()
         Me.Button2D = New System.Windows.Forms.Button()
         Me.Button1D = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'btn_cancelar
         '
         Me.btn_cancelar.Image = CType(resources.GetObject("btn_cancelar.Image"), System.Drawing.Image)
-        Me.btn_cancelar.Location = New System.Drawing.Point(527, 484)
+        Me.btn_cancelar.Location = New System.Drawing.Point(528, 565)
         Me.btn_cancelar.Name = "btn_cancelar"
         Me.btn_cancelar.Size = New System.Drawing.Size(148, 116)
         Me.btn_cancelar.TabIndex = 66
@@ -54,7 +55,7 @@ Partial Class FormSenhaSaque
         'Button15
         '
         Me.Button15.Image = CType(resources.GetObject("Button15.Image"), System.Drawing.Image)
-        Me.Button15.Location = New System.Drawing.Point(371, 484)
+        Me.Button15.Location = New System.Drawing.Point(372, 565)
         Me.Button15.Name = "Button15"
         Me.Button15.Size = New System.Drawing.Size(148, 116)
         Me.Button15.TabIndex = 65
@@ -63,7 +64,7 @@ Partial Class FormSenhaSaque
         'Button14
         '
         Me.Button14.Image = CType(resources.GetObject("Button14.Image"), System.Drawing.Image)
-        Me.Button14.Location = New System.Drawing.Point(64, 480)
+        Me.Button14.Location = New System.Drawing.Point(65, 561)
         Me.Button14.Name = "Button14"
         Me.Button14.Size = New System.Drawing.Size(147, 120)
         Me.Button14.TabIndex = 64
@@ -72,7 +73,7 @@ Partial Class FormSenhaSaque
         'btn_confirmar
         '
         Me.btn_confirmar.Image = CType(resources.GetObject("btn_confirmar.Image"), System.Drawing.Image)
-        Me.btn_confirmar.Location = New System.Drawing.Point(527, 364)
+        Me.btn_confirmar.Location = New System.Drawing.Point(528, 445)
         Me.btn_confirmar.Name = "btn_confirmar"
         Me.btn_confirmar.Size = New System.Drawing.Size(175, 114)
         Me.btn_confirmar.TabIndex = 63
@@ -81,7 +82,7 @@ Partial Class FormSenhaSaque
         'txt_senha_saque
         '
         Me.txt_senha_saque.Font = New System.Drawing.Font("Microsoft Sans Serif", 50.25!)
-        Me.txt_senha_saque.Location = New System.Drawing.Point(126, 12)
+        Me.txt_senha_saque.Location = New System.Drawing.Point(127, 93)
         Me.txt_senha_saque.Multiline = True
         Me.txt_senha_saque.Name = "txt_senha_saque"
         Me.txt_senha_saque.Size = New System.Drawing.Size(360, 88)
@@ -90,7 +91,7 @@ Partial Class FormSenhaSaque
         'btn_ClearD
         '
         Me.btn_ClearD.Image = CType(resources.GetObject("btn_ClearD.Image"), System.Drawing.Image)
-        Me.btn_ClearD.Location = New System.Drawing.Point(525, 246)
+        Me.btn_ClearD.Location = New System.Drawing.Point(526, 327)
         Me.btn_ClearD.Name = "btn_ClearD"
         Me.btn_ClearD.Size = New System.Drawing.Size(177, 109)
         Me.btn_ClearD.TabIndex = 61
@@ -99,7 +100,7 @@ Partial Class FormSenhaSaque
         'btn_CancelD
         '
         Me.btn_CancelD.Image = CType(resources.GetObject("btn_CancelD.Image"), System.Drawing.Image)
-        Me.btn_CancelD.Location = New System.Drawing.Point(524, 131)
+        Me.btn_CancelD.Location = New System.Drawing.Point(525, 212)
         Me.btn_CancelD.Name = "btn_CancelD"
         Me.btn_CancelD.Size = New System.Drawing.Size(177, 110)
         Me.btn_CancelD.TabIndex = 60
@@ -108,7 +109,7 @@ Partial Class FormSenhaSaque
         'Button0D
         '
         Me.Button0D.Image = CType(resources.GetObject("Button0D.Image"), System.Drawing.Image)
-        Me.Button0D.Location = New System.Drawing.Point(217, 484)
+        Me.Button0D.Location = New System.Drawing.Point(218, 565)
         Me.Button0D.Name = "Button0D"
         Me.Button0D.Size = New System.Drawing.Size(149, 116)
         Me.Button0D.TabIndex = 59
@@ -117,7 +118,7 @@ Partial Class FormSenhaSaque
         'Button9D
         '
         Me.Button9D.Image = CType(resources.GetObject("Button9D.Image"), System.Drawing.Image)
-        Me.Button9D.Location = New System.Drawing.Point(372, 361)
+        Me.Button9D.Location = New System.Drawing.Point(373, 442)
         Me.Button9D.Name = "Button9D"
         Me.Button9D.Size = New System.Drawing.Size(147, 116)
         Me.Button9D.TabIndex = 58
@@ -126,7 +127,7 @@ Partial Class FormSenhaSaque
         'Button8D
         '
         Me.Button8D.Image = CType(resources.GetObject("Button8D.Image"), System.Drawing.Image)
-        Me.Button8D.Location = New System.Drawing.Point(217, 363)
+        Me.Button8D.Location = New System.Drawing.Point(218, 444)
         Me.Button8D.Name = "Button8D"
         Me.Button8D.Size = New System.Drawing.Size(149, 115)
         Me.Button8D.TabIndex = 57
@@ -135,7 +136,7 @@ Partial Class FormSenhaSaque
         'Button7D
         '
         Me.Button7D.Image = CType(resources.GetObject("Button7D.Image"), System.Drawing.Image)
-        Me.Button7D.Location = New System.Drawing.Point(63, 362)
+        Me.Button7D.Location = New System.Drawing.Point(64, 443)
         Me.Button7D.Name = "Button7D"
         Me.Button7D.Size = New System.Drawing.Size(147, 116)
         Me.Button7D.TabIndex = 56
@@ -144,7 +145,7 @@ Partial Class FormSenhaSaque
         'Button6D
         '
         Me.Button6D.Image = CType(resources.GetObject("Button6D.Image"), System.Drawing.Image)
-        Me.Button6D.Location = New System.Drawing.Point(372, 246)
+        Me.Button6D.Location = New System.Drawing.Point(373, 327)
         Me.Button6D.Name = "Button6D"
         Me.Button6D.Size = New System.Drawing.Size(147, 111)
         Me.Button6D.TabIndex = 55
@@ -153,7 +154,7 @@ Partial Class FormSenhaSaque
         'Button5D
         '
         Me.Button5D.Image = CType(resources.GetObject("Button5D.Image"), System.Drawing.Image)
-        Me.Button5D.Location = New System.Drawing.Point(217, 246)
+        Me.Button5D.Location = New System.Drawing.Point(218, 327)
         Me.Button5D.Name = "Button5D"
         Me.Button5D.Size = New System.Drawing.Size(148, 111)
         Me.Button5D.TabIndex = 54
@@ -162,7 +163,7 @@ Partial Class FormSenhaSaque
         'Button4D
         '
         Me.Button4D.Image = CType(resources.GetObject("Button4D.Image"), System.Drawing.Image)
-        Me.Button4D.Location = New System.Drawing.Point(63, 246)
+        Me.Button4D.Location = New System.Drawing.Point(64, 327)
         Me.Button4D.Name = "Button4D"
         Me.Button4D.Size = New System.Drawing.Size(148, 111)
         Me.Button4D.TabIndex = 53
@@ -171,7 +172,7 @@ Partial Class FormSenhaSaque
         'Button3D
         '
         Me.Button3D.Image = CType(resources.GetObject("Button3D.Image"), System.Drawing.Image)
-        Me.Button3D.Location = New System.Drawing.Point(371, 131)
+        Me.Button3D.Location = New System.Drawing.Point(372, 212)
         Me.Button3D.Name = "Button3D"
         Me.Button3D.Size = New System.Drawing.Size(148, 109)
         Me.Button3D.TabIndex = 52
@@ -180,7 +181,7 @@ Partial Class FormSenhaSaque
         'Button2D
         '
         Me.Button2D.Image = CType(resources.GetObject("Button2D.Image"), System.Drawing.Image)
-        Me.Button2D.Location = New System.Drawing.Point(216, 131)
+        Me.Button2D.Location = New System.Drawing.Point(217, 212)
         Me.Button2D.Name = "Button2D"
         Me.Button2D.Size = New System.Drawing.Size(149, 109)
         Me.Button2D.TabIndex = 51
@@ -189,17 +190,28 @@ Partial Class FormSenhaSaque
         'Button1D
         '
         Me.Button1D.Image = CType(resources.GetObject("Button1D.Image"), System.Drawing.Image)
-        Me.Button1D.Location = New System.Drawing.Point(63, 129)
+        Me.Button1D.Location = New System.Drawing.Point(64, 210)
         Me.Button1D.Name = "Button1D"
         Me.Button1D.Size = New System.Drawing.Size(147, 112)
         Me.Button1D.TabIndex = 50
         Me.Button1D.UseVisualStyleBackColor = True
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 30.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(171, 30)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(274, 46)
+        Me.Label1.TabIndex = 67
+        Me.Label1.Text = "Digite a senha"
+        '
         'FormSenhaSaque
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 616)
+        Me.ClientSize = New System.Drawing.Size(757, 706)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btn_cancelar)
         Me.Controls.Add(Me.Button15)
         Me.Controls.Add(Me.Button14)
@@ -241,4 +253,5 @@ Partial Class FormSenhaSaque
     Friend WithEvents Button3D As Button
     Friend WithEvents Button2D As Button
     Friend WithEvents Button1D As Button
+    Friend WithEvents Label1 As Label
 End Class
